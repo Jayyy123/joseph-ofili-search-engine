@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+}
+.links{
+    display: flex;
+    padding-right: 9%;
+}
+.logo{
+    padding-left: 2%;
+}
+.logo h1{
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.logo h1:hover{
+    color: rgb(243, 192, 98);
+}
+
+.link{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    padding-left: 5%;
+    padding-right: 13%;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.link:hover{
+    color: rgb(243, 192, 98);
+}
